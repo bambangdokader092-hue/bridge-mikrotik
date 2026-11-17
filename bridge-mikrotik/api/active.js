@@ -18,7 +18,8 @@ const ALLOWED_ORIGINS = (process.env.ALLOWED_ORIGIN || '')
   .split(',').map(s => s.trim()).filter(Boolean)
   .concat([
     'https://portal-resapi-appnet.netlify.app',
-    'https://app-wiljum.netlify.app'
+    'https://app-wiljum.netlify.app',
+    'https://coffe-fariz.netlify.app',
   ]);
 
 function setCors(req, res) {
